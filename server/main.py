@@ -40,7 +40,7 @@ def index():
   # Insert twitter account here
 	if last_tweet_yes() == True:
 		return getPressedHtml()
-        else:
+    else:
 		return getNotPressedHtml()
 
 
