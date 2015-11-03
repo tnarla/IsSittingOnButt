@@ -37,10 +37,10 @@ def last_tweet_yes():
 @app.route("/")
 def index():
 	global isPressed
-  # Insert twitter account here
-	if last_tweet_yes() == True:
+  	#Insert twitter account here
+	if last_tweet_yes():
 		return getPressedHtml()
-	else:
+		else:
 		return getNotPressedHtml()
 
 
